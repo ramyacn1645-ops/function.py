@@ -2,6 +2,7 @@
 def make_sandwich(bread_type,filling,cheese=None,toasted = False):
     if toasted:
         toast_text = "toasted"
+        
     else:
         toast_text =""
     if cheese:
